@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-sass'
+1 verbose cli ]
+2 info using npm@6.14.4
+3 info using node@v12.16.3
+4 verbose config Skipping project config: C:\Users\Mahdi Assari/.npmrc. (matches userconfig)
+5 verbose npm-session 2935287780f91ddd
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 http fetch GET 200 https://registry.npmjs.org/node-sass 690ms
+9 http fetch GET 200 https://registry.npmjs.org/node-sass/-/node-sass-4.14.1.tgz 380ms
+10 silly pacote tag manifest for node-sass@latest fetched in 1109ms
+11 verbose stack Error: Invalid package name "React Tools": name can only contain URL-friendly characters
+11 verbose stack     at invalidPackageName (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-package-arg\npa.js:86:15)
+11 verbose stack     at Result.setName (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-package-arg\npa.js:121:11)
+11 verbose stack     at new Result (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-package-arg\npa.js:111:23)
+11 verbose stack     at Function.resolve (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-package-arg\npa.js:58:15)
+11 verbose stack     at computeVersionSpec (C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:316:21)
+11 verbose stack     at Installer.normalizeCurrentTree (C:\Program Files\nodejs\node_modules\npm\lib\install.js:410:68)
+11 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+11 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+11 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+11 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:368:5
+11 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\iferr.js:3:64
+11 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+11 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\call-limit\call-limit.js:28:43
+11 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:79:11)
+12 verbose cwd C:\Users\Mahdi Assari\Desktop\React Radman
+13 verbose Windows_NT 10.0.17763
+14 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-sass"
+15 verbose node v12.16.3
+16 verbose npm  v6.14.4
+17 error code EINVALIDPACKAGENAME
+18 error Invalid package name "React Tools": name can only contain URL-friendly characters
+19 verbose exit [ 1, true ]
